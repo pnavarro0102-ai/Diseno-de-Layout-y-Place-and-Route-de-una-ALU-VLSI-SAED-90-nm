@@ -1,0 +1,56 @@
+****************************************
+Report : power
+        -significant_digits 2
+Design : ALU
+Version: R-2020.09-SP6
+Date   : Fri Nov 14 17:50:31 2025
+****************************************
+Information: Activity propagation will be performed for scenario default.
+Information: Doing activity propagation for mode 'default' and corner 'default' with effort level 'medium'. (POW-024)
+Information: Timer-derived activity data is cached on scenario default (POW-052)
+Infomation: Fast mode activity propagation power.rtl_activity_annotation setup is ignored. Always use accurate mode.
+
+ **** Information : No. of simulation cycles = 6 ****
+Mode: default
+Corner: default
+Scenario: default
+Voltage: 0.70
+Temperature: 125.00
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1fF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1pW
+Leakage Power Unit   : 1pW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.00 (default)
+VSS (ground) probability 1.00 (default)
+
+  Cell Internal Power    = 1.21e+09 pW ( 60.3%)
+  Net Switching Power    = 7.95e+08 pW ( 39.7%)
+Total Dynamic Power      = 2.00e+09 pW (100.0%)
+
+Cell Leakage Power       = 1.73e+08 pW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+memory                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+black_box                 0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+clock_network             6.26e+06               0.00e+00               0.00e+00               6.26e+06    (  0.3%)         
+register                  1.72e+07               3.40e+07               1.01e+07               6.12e+07    (  2.8%)         
+sequential                0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+combinational             1.18e+09               7.61e+08               1.63e+08               2.11e+09    ( 96.9%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                     1.21e+09 pW            7.95e+08 pW            1.73e+08 pW            2.18e+09 pW
+1

@@ -1,0 +1,19 @@
+****************************************
+Report : clock
+Design : ALU
+Mode   : default
+Version: R-2020.09-SP6
+Date   : Fri Nov 14 17:51:40 2025
+****************************************
+
+
+Attributes:
+    p - Propagated clock
+    G - Generated  clock
+    U - Unexpanded generated clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+CLK              1.00   {0 0.5}             p         {CLK}
+
+1

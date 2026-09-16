@@ -1,0 +1,686 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 20
+        -report_by design
+Design : ALU
+Version: R-2020.09-SP6
+Date   : Fri Nov 14 17:51:41 2025
+****************************************
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_9_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  REGB_Q_reg_9_/RSTB (DFFNARX1)                    0.00      0.89 r
+  data arrival time                                          0.89
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_9_/CLK (DFFNARX1)                     0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.72      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -0.89
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.34
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_10_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  REGB_Q_reg_10_/RSTB (DFFNARX1)                   0.00      0.89 r
+  data arrival time                                          0.89
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_10_/CLK (DFFNARX1)                    0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.72      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -0.89
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.34
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_8_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  REGB_Q_reg_8_/RSTB (DFFNARX1)                    0.00      0.89 r
+  data arrival time                                          0.89
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_8_/CLK (DFFNARX1)                     0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.72      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -0.89
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.34
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_5_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  ropt_h_inst_10262/Z (NBUFFX2)                    0.15      1.04 r
+  REGB_Q_reg_5_/RSTB (DFFNARX1)                    0.00      1.04 r
+  data arrival time                                          1.04
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_5_/CLK (DFFNARX1)                     0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.22
+  data required time                                         1.22
+  ------------------------------------------------------------------------
+  data required time                                         1.22
+  data arrival time                                         -1.04
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.18
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGD_Q_reg_10_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  copt_h_inst_9973/Z (NBUFFX2)                     0.17      1.06 r
+  REGD_Q_reg_10_/RSTB (DFFNARX2)                   0.00      1.06 r
+  data arrival time                                          1.06
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGD_Q_reg_10_/CLK (DFFNARX2)                    0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.22
+  data required time                                         1.22
+  ------------------------------------------------------------------------
+  data required time                                         1.22
+  data arrival time                                         -1.06
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.16
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_14_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  copt_h_inst_9973/Z (NBUFFX2)                     0.17      1.06 r
+  copt_h_inst_9967/Z (NBUFFX2)                     0.15      1.21 r
+  REGB_Q_reg_14_/RSTB (DFFNARX1)                   0.00      1.21 r
+  data arrival time                                          1.21
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_14_/CLK (DFFNARX1)                    0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.72      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.21
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.02
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGD_Q_reg_9_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  copt_h_inst_9973/Z (NBUFFX2)                     0.17      1.06 r
+  ropt_h_inst_10265/Z (NBUFFX8)                    0.17      1.23 r
+  REGD_Q_reg_9_/RSTB (DFFNARX1)                    0.00      1.23 r
+  data arrival time                                          1.23
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGD_Q_reg_9_/CLK (DFFNARX1)                     0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.23
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.00
+
+
+
+  Startpoint: opFL[1] (input port clocked by CLK)
+  Endpoint: REGF0_Q_reg (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 r
+  opFL[1] (in)                                     0.00      0.82 r
+  U4500/QN (NOR2X0)                                0.07      0.90 f
+  U4501/QN (NAND2X0)                               0.12      1.01 r
+  U4502/Q (AND2X1)                                 0.23      1.25 r
+  REGF0_Q_reg/RSTB (DFFNARX2)                      0.00      1.25 r
+  data arrival time                                          1.25
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGF0_Q_reg/CLK (DFFNARX2)                       0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.72      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.25
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.02
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_13_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  ZBUF_782_inst_808/Z (NBUFFX4)                    0.22      1.11 r
+  copt_h_inst_9993/Z (NBUFFX2)                     0.16      1.27 r
+  REGB_Q_reg_13_/RSTB (DFFNARX1)                   0.00      1.27 r
+  data arrival time                                          1.27
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_13_/CLK (DFFNARX1)                    0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.27
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.04
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGA_Q_reg_5_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  ZBUF_782_inst_808/Z (NBUFFX4)                    0.22      1.11 r
+  copt_h_inst_9990/Z (NBUFFX2)                     0.16      1.27 r
+  REGA_Q_reg_5_/RSTB (DFFNARX1)                    0.00      1.27 r
+  data arrival time                                          1.27
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGA_Q_reg_5_/CLK (DFFNARX1)                     0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.27
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.04
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_15_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  ZBUF_782_inst_808/Z (NBUFFX4)                    0.22      1.11 r
+  copt_h_inst_9995/Z (NBUFFX2)                     0.16      1.27 r
+  REGB_Q_reg_15_/RSTB (DFFNARX1)                   0.00      1.27 r
+  data arrival time                                          1.27
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.27
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.04
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGA_Q_reg_11_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  ZBUF_782_inst_808/Z (NBUFFX4)                    0.22      1.11 r
+  copt_h_inst_9992/Z (NBUFFX2)                     0.16      1.27 r
+  REGA_Q_reg_11_/RSTB (DFFNARX1)                   0.00      1.27 r
+  data arrival time                                          1.27
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGA_Q_reg_11_/CLK (DFFNARX1)                    0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.27
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.04
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_1_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  ZBUF_782_inst_808/Z (NBUFFX4)                    0.22      1.11 r
+  copt_h_inst_9994/Z (NBUFFX2)                     0.16      1.27 r
+  REGB_Q_reg_1_/RSTB (DFFNARX1)                    0.00      1.27 r
+  data arrival time                                          1.27
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_1_/CLK (DFFNARX1)                     0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.27
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.04
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_12_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  ZBUF_782_inst_808/Z (NBUFFX4)                    0.22      1.11 r
+  copt_h_inst_9991/Z (NBUFFX2)                     0.16      1.27 r
+  REGB_Q_reg_12_/RSTB (DFFNARX1)                   0.00      1.27 r
+  data arrival time                                          1.27
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_12_/CLK (DFFNARX1)                    0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.27
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.04
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGA_Q_reg_12_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  ZBUF_782_inst_808/Z (NBUFFX4)                    0.22      1.11 r
+  copt_h_inst_9989/Z (NBUFFX2)                     0.18      1.28 r
+  REGA_Q_reg_12_/RSTB (DFFNARX1)                   0.00      1.28 r
+  data arrival time                                          1.28
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGA_Q_reg_12_/CLK (DFFNARX1)                    0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.72      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.28
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.06
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGA_Q_reg_13_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  ZBUF_782_inst_808/Z (NBUFFX4)                    0.22      1.11 r
+  copt_h_inst_9989/Z (NBUFFX2)                     0.18      1.28 r
+  REGA_Q_reg_13_/RSTB (DFFNARX1)                   0.00      1.28 r
+  data arrival time                                          1.28
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGA_Q_reg_13_/CLK (DFFNARX1)                    0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.72      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.28
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.06
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGA_Q_reg_4_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  ZBUF_782_inst_808/Z (NBUFFX4)                    0.22      1.11 r
+  copt_h_inst_9989/Z (NBUFFX2)                     0.18      1.28 r
+  REGA_Q_reg_4_/RSTB (DFFNARX2)                    0.00      1.28 r
+  data arrival time                                          1.28
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGA_Q_reg_4_/CLK (DFFNARX2)                     0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.22
+  data required time                                         1.22
+  ------------------------------------------------------------------------
+  data required time                                         1.22
+  data arrival time                                         -1.28
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.06
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_7_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  copt_h_inst_9982/Z (NBUFFX2)                     0.15      1.04 r
+  copt_h_inst_10012/Z (NBUFFX2)                    0.12      1.17 r
+  copt_h_inst_10013/Z (NBUFFX2)                    0.12      1.29 r
+  REGB_Q_reg_7_/RSTB (DFFNARX1)                    0.00      1.29 r
+  data arrival time                                          1.29
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_7_/CLK (DFFNARX1)                     0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.29
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.07
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGB_Q_reg_0_ (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  copt_h_inst_9972/Z (NBUFFX2)                     0.15      1.04 r
+  copt_h_inst_9978/Z (NBUFFX2)                     0.12      1.16 r
+  copt_h_inst_10015/Z (NBUFFX2)                    0.13      1.30 r
+  REGB_Q_reg_0_/RSTB (DFFNARX1)                    0.00      1.30 r
+  data arrival time                                          1.30
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGB_Q_reg_0_/CLK (DFFNARX1)                     0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.30
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.07
+
+
+
+  Startpoint: RST (input port clocked by CLK)
+  Endpoint: REGF4_Q_reg (removal check against falling-edge clock clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            1.00      1.00
+  clock network delay (propagated)                -0.18      0.82
+  input external delay                             0.00      0.82 f
+  RST (in)                                         0.00      0.82 f
+  HFSINV_4159_10/ZN (INVX8)                        0.06      0.89 r
+  copt_h_inst_9972/Z (NBUFFX2)                     0.15      1.04 r
+  copt_h_inst_9978/Z (NBUFFX2)                     0.12      1.16 r
+  copt_h_inst_10015/Z (NBUFFX2)                    0.13      1.30 r
+  REGF4_Q_reg/RSTB (DFFNARX1)                      0.00      1.30 r
+  data arrival time                                          1.30
+
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.00      0.50
+  REGF4_Q_reg/CLK (DFFNARX1)                       0.00      0.50 f
+  clock uncertainty                                0.01      0.51
+  library hold time                                0.71      1.23
+  data required time                                         1.23
+  ------------------------------------------------------------------------
+  data required time                                         1.23
+  data arrival time                                         -1.30
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.07
+
+
+1
