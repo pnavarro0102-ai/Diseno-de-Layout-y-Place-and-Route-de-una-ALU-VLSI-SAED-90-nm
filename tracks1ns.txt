@@ -1,0 +1,27 @@
+****************************************
+Report : report_tracks
+Design : ALU
+Version: R-2020.09-SP6
+Date   : Fri Nov 14 17:19:29 2025
+****************************************
+Layer          Direction     Start         Tracks    Pitch       Attr
+---------------------------------------------------------------------------
+M1             X             0.000         738       0.320       default
+M1             Y             0.000         550       0.320       default
+M2             X             0.000         738       0.320       default
+M2             Y             0.000         550       0.320       default
+M3             X             0.000         738       0.320       default
+M3             Y             0.000         550       0.320       default
+M4             X             0.000         738       0.320       default
+M4             Y             0.000         550       0.320       default
+M5             X             0.000         738       0.320       default
+M5             Y             0.000         550       0.320       default
+M6             X             0.000         738       0.320       default
+M6             Y             0.000         550       0.320       default
+M7             X             0.000         738       0.320       default
+M7             Y             0.000         550       0.320       default
+M8             X             0.000         738       0.320       default
+M8             Y             0.000         550       0.320       default
+M9             X             0.000         263       0.900       default
+M9             Y             0.000         196       0.900       default
+1
