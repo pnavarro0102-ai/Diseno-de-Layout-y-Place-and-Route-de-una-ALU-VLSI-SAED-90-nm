@@ -1,0 +1,86 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. 
+Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' 
+to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : qor
+Design : ALU
+Version: R-2020.09-SP5-1
+Date   : Thu Oct 30 15:59:33 2025
+****************************************
+
+
+  Timing Path Group 'CLK'
+  -----------------------------------
+  Levels of Logic:              43.00
+  Critical Path Length:        159.43
+  Critical Path Slack:        -159.70
+  Critical Path Clk Period:      1.00
+  Total Negative Slack:      -6750.94
+  No. of Violating Paths:       92.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:               3336
+  Buf/Inv Cell Count:             731
+  Buf Cell Count:                 324
+  Inv Cell Count:                 407
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      3244
+  Sequential Cell Count:           92
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    28259.021046
+  Noncombinational Area:  2995.200058
+  Buf/Inv Area:           4044.902504
+  Total Buffer Area:          1791.59
+  Total Inverter Area:        2253.31
+  Macro/Black Box Area:      0.000000
+  Net Area:               1647.969451
+  -----------------------------------
+  Cell Area:             31254.221104
+  Design Area:           32902.190555
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          3655
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: redhatalajuela
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    1.70
+  Logic Optimization:                 44.02
+  Mapping Optimization:               96.40
+  -----------------------------------------
+  Overall Compile Time:              164.00
+  Overall Compile Wall Clock Time:   166.99
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 159.70  TNS: 6750.94  Number of Violating Paths: 92
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1
