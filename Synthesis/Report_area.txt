@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : ALU
+Version: R-2020.09-SP5-1
+Date   : Thu Oct 30 15:59:33 2025
+****************************************
+
+Library(s) Used:
+
+    saed90nm_max (File: /mnt/vol_NFS_alajuela/VLSI/Estudiantes/pnavaro/Tarea7/SYN/libs/saed90nm_max.db)
+
+Number of ports:                           90
+Number of nets:                          3655
+Number of cells:                         3337
+Number of combinational cells:           3244
+Number of sequential cells:                92
+Number of macros/black boxes:               0
+Number of buf/inv:                        731
+Number of references:                      49
+
+Combinational area:              28259.021046
+Buf/Inv area:                     4044.902504
+Noncombinational area:            2995.200058
+Macro/Black Box area:                0.000000
+Net Interconnect area:            1647.969451
+
+Total cell area:                 31254.221104
+Total area:                      32902.190555
+1
